@@ -44,12 +44,6 @@
           </div>
         </div>
 
-        <!-- Featured Badge -->
-        <div v-if="project.featured" class="absolute top-4 right-4">
-          <div class="px-3 py-1 bg-primary-600 text-white text-xs font-medium rounded-full shadow-lg">
-            Featured
-          </div>
-        </div>
         
         <!-- Quick View Button -->
         <div class="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

@@ -87,12 +87,6 @@
             </div>
           </div>
 
-          <!-- Additional Details (you can expand this) -->
-          <div v-if="project.featured" class="p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg">
-            <p class="text-primary-700 dark:text-primary-300 font-medium">
-              ⭐ This is a featured project
-            </p>
-          </div>
         </div>
       </div>
     </div>
