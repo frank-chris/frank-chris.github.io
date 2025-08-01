@@ -166,7 +166,7 @@ const currentJob: Experience = {
     'Created Outreach API using FastAPI and PostgreSQL to integrate NICE CXone with internal tools, enhancing agent and campaign interoperability',
     'Built dashboards and real-time alerts to track dialer and agent metrics, reducing incident response times from 45 minutes to 5 minutes',
     'Developed connectors and internal clients for multiple third-party APIs (NICE, RND) with sparse documentation',
-    'Mentored 2 junior engineers and collaborated closely with cross-functional stakeholders (clinical, ops, client-facing)',
+    'Collaborated closely with cross-functional stakeholders (clinical, ops, client-facing)',
     'Represented the company at the NICE customer conference to align technical roadmap and resolve vendor integration challenges'
   ],
   technologies: ['Python', 'Pandas', 'AWS (EC2, S3, Bedrock)', 'FastAPI', 'PostgreSQL', 'Argo Workflows', 'Whisper', 'Claude 3.5', 'Docker']

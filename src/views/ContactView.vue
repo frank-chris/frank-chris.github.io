@@ -7,31 +7,22 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <!-- Contact Form -->
+    <div class="max-w-2xl mx-auto space-y-8">
       <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
-        <h2 class="text-2xl font-semibold mb-6">Send me a message</h2>
-        <ContactForm />
+        <h2 class="text-2xl font-semibold mb-6">Contact Information</h2>
+        <ContactInfo />
       </div>
 
-      <!-- Contact Information -->
-      <div class="space-y-8">
-        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
-          <h2 class="text-2xl font-semibold mb-6">Contact Information</h2>
-          <ContactInfo />
-        </div>
-
-        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
-          <h2 class="text-2xl font-semibold mb-6">Connect with me</h2>
-          <div class="flex flex-wrap gap-4">
-            <SocialButton
-              v-for="social in socials"
-              :key="social.platform"
-              :platform="social.platform"
-              :url="social.url"
-              :icon="social.icon"
-            />
-          </div>
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
+        <h2 class="text-2xl font-semibold mb-6">Connect with me</h2>
+        <div class="flex flex-wrap gap-4">
+          <SocialButton
+            v-for="social in socials"
+            :key="social.platform"
+            :platform="social.platform"
+            :url="social.url"
+            :icon="social.icon"
+          />
         </div>
       </div>
     </div>
@@ -40,7 +31,6 @@
 
 <script setup lang="ts">
 import { Github, Linkedin } from 'lucide-vue-next'
-import ContactForm from '@/components/ContactForm.vue'
 import ContactInfo from '@/components/ContactInfo.vue'
 import SocialButton from '@/components/SocialButton.vue'
 import type { Component } from 'vue'
