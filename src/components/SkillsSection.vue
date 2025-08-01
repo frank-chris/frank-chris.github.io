@@ -44,7 +44,7 @@ const skillCategories: SkillCategory[] = [
   {
     name: 'Data & AI/ML',
     icon: Server,
-    skills: ['Pandas', 'PyTorch', 'Whisper', 'Claude 3.5', 'TensorFlow', 'FastAPI', 'PostgreSQL', 'MongoDB']
+    skills: ['Pandas', 'PyTorch', 'Whisper', 'TensorFlow', 'FastAPI', 'PostgreSQL', 'MongoDB']
   },
   {
     name: 'Cloud & DevOps',

@@ -5,7 +5,7 @@
         Hi, I'm Chris Francis
       </h1>
       <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-        Data Engineer passionate about building scalable systems and leveraging AI/ML to transform data
+        Data // Machine Learning
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <RouterLink

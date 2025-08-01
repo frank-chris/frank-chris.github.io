@@ -120,7 +120,7 @@
 </template>
 
 <script setup lang="ts">
-import { Briefcase, GraduationCap, Code2, Heart, BookOpen, Palette, FileText, Download, History } from 'lucide-vue-next'
+import { Briefcase, GraduationCap, Code2, Heart, BookOpen, Palette, FileText, Download, History, Gamepad2 } from 'lucide-vue-next'
 import ExperienceCard from '@/components/ExperienceCard.vue'
 import EducationCard from '@/components/EducationCard.vue'
 import type { Component } from 'vue'
@@ -233,24 +233,24 @@ const education: Education[] = [
 
 const topSkills = [
   'Python', 'Go', 'SQL', 'AWS', 'Docker',
-  'FastAPI', 'Pandas', 'PostgreSQL', 'Claude 3.5', 'Argo Workflows'
+  'FastAPI', 'Pandas', 'PostgreSQL', 'Argo Workflows'
 ]
 
 const hobbies: Hobby[] = [
   {
     name: 'Reading',
     icon: BookOpen,
-    description: 'Enjoy exploring both technical literature and fiction'
+    description: 'Science Fiction, Popular Science'
   },
   {
-    name: 'Coding',
-    icon: Code2,
-    description: 'Building side projects and contributing to open source'
+    name: 'Game Development',
+    icon: Gamepad2,
+    description: 'Godot, JavaScript'
   },
   {
     name: 'Digital Illustration',
     icon: Palette,
-    description: 'Creating digital art and exploring creative design'
+    description: 'Adobe Illustrator'
   }
 ]
 </script>
