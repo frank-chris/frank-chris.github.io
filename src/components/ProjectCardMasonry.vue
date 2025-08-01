@@ -112,7 +112,7 @@ interface Props {
   project: Project & { category?: string }
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 const showDetails = ref(false)
 
 const handleClick = () => {
