@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Archivo+Black&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light theme (default) */
+  --bg-color: #ECE7E1;
+  --text-color: #1A1818;
+  --text-secondary: #4a4a4a;
+  --text-tertiary: #6a6a6a;
+  --card-bg: rgba(26, 24, 24, 0.03);
+  --card-bg-hover: rgba(26, 24, 24, 0.06);
+  --border-color: #1A1818;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] {
+  /* Dark theme - reverse the colors */
+  --bg-color: #1A1818;
+  --text-color: #ECE7E1;
+  --text-secondary: #b5b5b5;
+  --text-tertiary: #959595;
+  --card-bg: rgba(236, 231, 225, 0.03);
+  --card-bg-hover: rgba(236, 231, 225, 0.06);
+  --border-color: #ECE7E1;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+  --modal-overlay: rgba(0, 0, 0, 0.7);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Text selection colors */
+  ::selection {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+  }
+
+  ::-moz-selection {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+  }
+}
+
+/* Global scrollbar styles for mobile */
+@media (max-width: 1200px) {
+  /* Hide scrollbars for webkit browsers */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbars for all elements */
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+}
