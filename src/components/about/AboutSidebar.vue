@@ -482,8 +482,8 @@ onMounted(() => {
   .sidebar.layout-animate.layout-mounted {
     width: 100%;
     padding: 3rem 2rem;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     overflow-y: auto;
     max-height: 100vh;
   }
@@ -499,13 +499,13 @@ onMounted(() => {
 
   .sidebar-content {
     margin-top: 0;
-    text-align: center;
-    padding: 2rem 1rem;
+    text-align: left;
+    padding: 0.5rem 1rem 2rem 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: flex-start;
   }
   
   .description {
@@ -537,7 +537,7 @@ onMounted(() => {
   }
   
   .skills-grid {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 </style>
