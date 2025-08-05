@@ -88,7 +88,7 @@ import { MapPin, Send, Phone } from 'lucide-vue-next'
 
 .contact-label {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 500;
   color: var(--text-color);
   margin-bottom: 0.25rem;
@@ -100,7 +100,7 @@ import { MapPin, Send, Phone } from 'lucide-vue-next'
 
 .contact-value {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.4;
@@ -108,7 +108,7 @@ import { MapPin, Send, Phone } from 'lucide-vue-next'
 
 .contact-link {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: var(--text-tertiary);
   text-decoration: none;
@@ -157,7 +157,7 @@ import { MapPin, Send, Phone } from 'lucide-vue-next'
   .contact-label,
   .contact-value,
   .contact-link {
-    font-size: 0.8125rem;
+    font-size: 1rem;
   }
 }
 </style>

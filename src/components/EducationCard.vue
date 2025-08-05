@@ -84,7 +84,7 @@ defineProps<Props>()
 
 .degree {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 0.25rem;
@@ -93,7 +93,7 @@ defineProps<Props>()
 
 .school-info {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 400;
   color: var(--text-tertiary);
   display: flex;
@@ -117,7 +117,7 @@ defineProps<Props>()
 
 .duration {
   font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text-tertiary);
   background-color: transparent;
@@ -152,7 +152,7 @@ defineProps<Props>()
 
 .achievement-text {
   font-family: 'Inter', sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1.0625rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.5;
@@ -169,15 +169,15 @@ defineProps<Props>()
   }
   
   .degree {
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
   }
   
   .school-info {
-    font-size: 0.8125rem;
+    font-size: 1rem;
   }
   
   .achievement-text {
-    font-size: 0.75rem;
+    font-size: 0.9375rem;
   }
 }
 </style>

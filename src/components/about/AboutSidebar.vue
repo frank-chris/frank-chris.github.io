@@ -307,7 +307,7 @@ onMounted(() => {
 
 .section-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   color: var(--text-color);
@@ -331,7 +331,7 @@ onMounted(() => {
 
 .description {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.6;
@@ -349,7 +349,7 @@ onMounted(() => {
 
 .skill-tag {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--text-color);
   background-color: transparent;
@@ -401,8 +401,8 @@ onMounted(() => {
 }
 
 .hobby-icon {
-  width: 1rem;
-  height: 1rem;
+  width: 1.25rem;
+  height: 1.25rem;
   color: var(--text-color);
   flex-shrink: 0;
   margin-top: 0.125rem;
@@ -414,7 +414,7 @@ onMounted(() => {
 
 .hobby-name {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   font-weight: 500;
   color: var(--text-color);
   margin-bottom: 0.25rem;
@@ -422,7 +422,7 @@ onMounted(() => {
 
 .hobby-description {
   font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.4;
@@ -500,7 +500,7 @@ onMounted(() => {
   .sidebar-content {
     margin-top: 0;
     text-align: left;
-    padding: 0.5rem 1rem 2rem 1rem;
+    padding: 0.5rem 1rem 12rem 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -529,7 +529,7 @@ onMounted(() => {
   }
 
   .section-title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .social-section {

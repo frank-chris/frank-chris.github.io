@@ -116,7 +116,7 @@ const projects: ProjectWithCategory[] = [
     description: 'Developed a system for estimating lung-health parameters using machine learning and audio sensors fitted in consumer-grade N95 and cloth masks with an error rate less than 5%. Published in ACM Transactions on Computing for Healthcare.',
     technologies: ['Python', 'Machine Learning', 'Signal Processing', 'Audio Analysis'],
     imageUrl: '/images/projects/spiromask.png',
-    liveUrl: 'https://dl.acm.org/doi/10.1145/3477599',
+    liveUrl: 'https://dl.acm.org/doi/10.1145/3570167',
     category: 'Machine Learning',
     featured: true,
     createdAt: new Date('2022-04-01')
@@ -127,7 +127,7 @@ const projects: ProjectWithCategory[] = [
     description: 'Created a compiler for a simple C-flavoured programming language using Flex, Bison, and C. Implemented variables, expressions, control flow, arrays, functions, input/output, and function scope.',
     technologies: ['C', 'Flex', 'Bison', 'Compiler Design'],
     imageUrl: '/images/projects/compiler.jpg',
-    githubUrl: 'https://github.com/frank-chris/Compiler',
+    githubUrl: 'https://github.com/frank-chris/Toy-C-Compiler',
     category: 'Systems',
     featured: false,
     createdAt: new Date('2021-05-01')
@@ -148,6 +148,7 @@ const projects: ProjectWithCategory[] = [
     description: 'Worked on data visualization for a PDE-based COVID-19 model. Developed an interactive webpage with time-series plots using FusionCharts.js and choropleth maps using Leaflet.js.',
     technologies: ['Python', 'JavaScript', 'Plotly', 'Leaflet.js', 'HTML/CSS'],
     imageUrl: '/images/projects/covid-dashboard.png',
+    liveUrl: 'https://frank-chris.github.io/covid/',
     category: 'Research',
     featured: false,
     createdAt: new Date('2020-06-01')
@@ -209,7 +210,7 @@ onMounted(() => {
 
 .section-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   color: var(--text-color);
@@ -226,7 +227,7 @@ onMounted(() => {
 
 .description {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.6;
@@ -269,7 +270,7 @@ onMounted(() => {
 
 .featured-project-title {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text-color);
   margin-bottom: 0.25rem;
@@ -351,7 +352,7 @@ onMounted(() => {
   .sidebar-content {
     margin-top: 0;
     text-align: center;
-    padding: 0.5rem 1rem 2rem 1rem;
+    padding: 0.5rem 1rem 12rem 1rem;
   }
   
   .description {
@@ -375,7 +376,7 @@ onMounted(() => {
   }
 
   .section-title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   
   

@@ -63,19 +63,21 @@ defineProps<Props>()
   font-weight: 400;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .social-button {
-    padding: 0.625rem 0.875rem;
-    gap: 0.375rem;
+    padding: 0.75rem;
+    gap: 0;
+    min-width: 48px;
+    justify-content: center;
   }
 
   .social-icon {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
 
   .social-text {
-    font-size: 0.8125rem;
+    display: none;
   }
 }
 </style>

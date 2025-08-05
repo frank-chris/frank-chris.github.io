@@ -95,7 +95,7 @@ defineProps<Props>()
 
 .position {
   font-family: 'Inter', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 0.25rem;
@@ -104,7 +104,7 @@ defineProps<Props>()
 
 .company-info {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   color: var(--text-tertiary);
   display: flex;
@@ -128,7 +128,7 @@ defineProps<Props>()
 
 .duration {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text-tertiary);
   background-color: transparent;
@@ -170,7 +170,7 @@ defineProps<Props>()
 
 .description-text {
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.5;
@@ -184,7 +184,7 @@ defineProps<Props>()
 
 .tech-tag {
   font-family: 'Inter', sans-serif;
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   color: var(--text-color);
   background-color: transparent;
@@ -210,15 +210,15 @@ defineProps<Props>()
   }
   
   .position {
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
   }
   
   .company-info {
-    font-size: 0.8125rem;
+    font-size: 1rem;
   }
   
   .description-text {
-    font-size: 0.75rem;
+    font-size: 0.9375rem;
   }
 }
 </style>

@@ -107,7 +107,7 @@ const handleClick = () => {
 
 .project-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 1rem;
@@ -117,7 +117,7 @@ const handleClick = () => {
 
 .project-description {
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1.0625rem;
   font-weight: 300;
   color: var(--text-tertiary);
   line-height: 1.6;

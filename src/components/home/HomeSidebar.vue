@@ -94,7 +94,7 @@ onMounted(() => {
 
 .name {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   color: var(--text-color);
@@ -104,7 +104,7 @@ onMounted(() => {
 
 .role {
   font-family: 'Inter', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.375rem;
   font-weight: 400;
   color: var(--text-secondary);
   margin-bottom: 0.75rem;
@@ -113,7 +113,7 @@ onMounted(() => {
 
 .location {
   font-family: 'Inter', sans-serif;
-  font-size: 1.0625rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: var(--text-tertiary);
   margin-bottom: 2.5rem;
@@ -187,11 +187,11 @@ onMounted(() => {
   }
 
   .name {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .role, .location {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
   }
 }
 </style>

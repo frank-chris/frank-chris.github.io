@@ -100,7 +100,7 @@ onMounted(() => {
 
 .section-title {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   color: var(--text-color);
@@ -211,7 +211,7 @@ onMounted(() => {
   }
 
   .section-title {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .connect-title {
@@ -220,7 +220,7 @@ onMounted(() => {
 
   .social-section {
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }

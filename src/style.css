@@ -65,4 +65,15 @@
     scrollbar-width: none;
   }
   
+  /* Prevent body scrolling on mobile */
+  html {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+  }
 }

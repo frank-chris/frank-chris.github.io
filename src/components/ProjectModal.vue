@@ -41,8 +41,8 @@
         <div class="p-8">
           <div class="flex items-start justify-between mb-6">
             <div>
-              <h2 style="font-family: 'Inter', sans-serif; font-size: 1.5rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">{{ project.title }}</h2>
-              <div class="flex items-center gap-4" style="font-family: 'Inter', sans-serif; font-size: 0.875rem; color: var(--text-tertiary);">
+              <h2 style="font-family: 'Inter', sans-serif; font-size: 1.75rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">{{ project.title }}</h2>
+              <div class="flex items-center gap-4" style="font-family: 'Inter', sans-serif; font-size: 1rem; color: var(--text-tertiary);">
                 <span v-if="project.category">{{ project.category }}</span>
                 <span v-if="project.createdAt">{{ formatDate(project.createdAt) }}</span>
               </div>
@@ -54,7 +54,7 @@
                 :href="project.githubUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="modal-button"
+                class="modal-button whitespace-nowrap"
               >
                 <Github class="w-5 h-5 mr-2" />
                 View Code
@@ -67,22 +67,22 @@
                 class="modal-button whitespace-nowrap"
               >
                 <ExternalLink class="w-5 h-5 mr-2" />
-                Live Demo
+                {{ project.title.includes('SpiroMask') ? 'Publication' : 'Live Demo' }}
               </a>
             </div>
           </div>
 
           <!-- Description -->
           <div class="mb-8">
-            <h3 style="font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">About this project</h3>
-            <p style="font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: 300; color: var(--text-tertiary); line-height: 1.6;">
+            <h3 style="font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">About this project</h3>
+            <p style="font-family: 'Inter', sans-serif; font-size: 1.0625rem; font-weight: 300; color: var(--text-tertiary); line-height: 1.6;">
               {{ project.description }}
             </p>
           </div>
 
           <!-- Technologies -->
           <div class="mb-8">
-            <h3 style="font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">Technologies used</h3>
+            <h3 style="font-family: 'Inter', sans-serif; font-size: 1.25rem; font-weight: 600; color: var(--text-color); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">Technologies used</h3>
             <div class="flex flex-wrap gap-3">
               <span
                 v-for="tech in project.technologies"
@@ -237,7 +237,7 @@ onMounted(() => {
   border: 1px solid var(--border-color);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 400;
   transition: all 0.2s ease;
 }
