@@ -198,7 +198,7 @@ onMounted(() => {
   .sidebar-content {
     margin-top: 0;
     text-align: center;
-    padding: 0.5rem 1rem 2rem 1rem;
+    padding: 0 1rem 2rem 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;

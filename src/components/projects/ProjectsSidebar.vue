@@ -352,7 +352,7 @@ onMounted(() => {
   .sidebar-content {
     margin-top: 0;
     text-align: center;
-    padding: 0.5rem 1rem 12rem 1rem;
+    padding: 0 1rem 24rem 1rem;
   }
   
   .description {
